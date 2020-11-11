@@ -6,22 +6,45 @@ insufficient network defense resources. A number of features are added to the ag
 emulate real-life attack-defend scenarios.
 
 ## Research Journal Sections
-* Experiment Details
+* [Research Overview ("The Big Idea")](./#the-big-idea)
+* [Research Challenges](./#research-challenges)
+  * [Policy Convergence in Multi-Agent Scenarios](./#policy-convergence-in-multi-agent-scenarios)
+  * [Example MADRL Solutions](./#example-madrl-solutions)
+  * [Representations for Agent-Specific Observations](./#representations-for-agent-specific-observations)
+* [Experiment Details](./#experiment-details)
   * [MADDPG](./#maddpg)
   * [Multi-Agent Particle Environment (MPE)](./#multi-agent-particle-environment-mpe)
-* Key Research Literature
+* [Key Research Literature](./#key-research-literature)
   * [Cyber Deception](./#cyber-deception)
   * [Reinforcement Learning](./#reinforcement-learning)
     - [Multi-Agent Deep Reinforcement Learning](./#multi-agent-deep-reinforcement-learning-madrl)
     - [Adversarial Reinforcement Learning](./#adversarial-reinforcement-learning)
-  * [Gradient Descent](./#gradient-descent)
-    - [Policy Gradient Descent](./#policy-gradient-descent-pgd)
-    - [Stochastic Gradient Descent](./#stochastic-gradient-descent-sgd)
+    - [Gradient Descent](./#gradient-descent)
+      - [Policy Gradient Descent](./#policy-gradient-descent-pgd)
+      - [Stochastic Gradient Descent](./#stochastic-gradient-descent-sgd)
+* [Past Study Topics](./#past-studiy-topics)
   * [Game Theoretic Modeling](./#game-theoretic-modeling)
-* Past Study Topics
-  * [Game Theoretic Modeling](./#game-theoretic-modeling)
-  * [Mobile Crowdsensing](./mobile-crowdsensing)
-  * [Location Privacy](./location-privacy)
+  * [Mobile Crowdsensing](./#mobile-crowdsensing)
+  * [Location Privacy](./#location-privacy)
+
+## The Big Idea
+
+## Research Challenges
+
+### Policy Convergence in Multi-Agent Scenarios
+TBD
+
+*Solution: TBD*
+
+### Example MADRL Solutions
+TBD
+
+*Solution: TBD*
+
+### Representations for Agent-Specific Observations
+TBD
+
+*Solution: TBD*
 
 ## Experiment Details
 
@@ -32,6 +55,8 @@ Online MADDPG resources: [Paper](https://arxiv.org/pdf/1706.02275.pdf), [Github 
 Online MPE resources: [Github codebase](https://github.com/openai/multiagent-particle-envs)
 
 ## Key Research Literature
+An extensive literature review is necessary to ascertain the latest research advances and identify the thought leaders in a
+particular field of study. Hundreds of abstracts, technical papers, conference journals and books have been canvassed across a myriad number of topical areas, with only a select few -- including game-changing, seminal works -- being highlighted here.
 
 ### Cyber Deception
 Cyber deception. 
