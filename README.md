@@ -6,7 +6,7 @@ insufficient network defense resources. A number of features are added to the ag
 emulate real-life attack-defend scenarios.
 
 ## Research Journal Sections
-* [Research Overview ("The Big Idea")](./#the-big-idea)
+* [Research Overview ("The Big Idea")](#the-big-idea)
 * [Research Challenges](./#research-challenges)
   * [Policy Convergence in Multi-Agent Scenarios](./#policy-convergence-in-multi-agent-scenarios)
   * [Example MADRL Solutions](./#example-madrl-solutions)
