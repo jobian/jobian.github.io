@@ -1,5 +1,5 @@
 # Research Journal
-###### Demetrius Davis, Virginia Tech (VT), Computer Science *[last update: November 2020]*
+###### **Demetrius Davis**, Virginia Tech (VT), Computer Science *[last update: November 2020]*
 
 My current dissertation research is strongly focused on the application of one or more cyber deception techniques to augment
 insufficient network defense resources. A number of features are added to the agent, network and node models to closely
@@ -27,8 +27,10 @@ emulate real-life attack-defend scenarios.
   * [Mobile Crowdsensing](#mobile-crowdsensing)
   * [Location Privacy](#location-privacy)
 
+---
 ## The Big Idea
 
+---
 ## Research Challenges
 
 ### Policy Convergence in Multi-Agent Scenarios
@@ -46,6 +48,7 @@ TBD
 
 *Solution: TBD*
 
+---
 ## Experiment Details
 
 ### MADDPG
@@ -54,6 +57,7 @@ Online MADDPG resources: [Paper](https://arxiv.org/pdf/1706.02275.pdf), [Github 
 ### Multi-Agent Particle Environment MPE
 Online MPE resources: [Github codebase](https://github.com/openai/multiagent-particle-envs)
 
+---
 ## Key Research Literature
 An extensive literature review is necessary to ascertain the latest research advances and identify the thought leaders in a
 particular field of study. Hundreds of abstracts, technical papers, conference journals and books have been canvassed across a myriad number of topical areas, with only a select few -- including game-changing, seminal works -- being highlighted here.
@@ -106,6 +110,7 @@ TBD
 ### Topology Control
 TBD
 
+---
 ## Past Study Topics
 TBD
 
