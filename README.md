@@ -36,8 +36,7 @@ Online MPE resources: [Github codebase](https://github.com/openai/multiagent-par
 ### Cyber Deception
 Cyber deception. 
 - A. Schlenker, et al (2018), [Deceiving Cyber Adversaries: A Game Theoretic Approach](https://dl.acm.org/doi/10.5555/3237383.3237833)
-- D. Rawat, et al (2019) [Performance Evaluation of Deception System for Deceiving Cyber Adversaries in Adaptive Virtualized Wireless Networks]
-(https://dl.acm.org/doi/10.1145/3318216.3363377)
+- D. Rawat, et al (2019) [Performance Evaluation of Deception System for Deceiving Cyber Adversaries in Adaptive Virtualized Wireless Networks](https://dl.acm.org/doi/10.1145/3318216.3363377)
 
 #### Moving Target Defense
 Per [DHS](https://www.dhs.gov/science-and-technology/csd-mtd#:~:text=Moving%20Target%20Defense%20(MTD)%20is,their%20probing%20and%20attack%20efforts.),
@@ -51,17 +50,16 @@ My research utilizes several sub-disciplines of this popular data science techni
 Markov Decision Process (MDP) and gradient descent algorithms.
 
 #### Multi-Agent Deep Reinforcement Learning (MADRL)
-*Deep Reinforcement Learning (DRL)*
+*Deep Reinforcement Learning (DRL)* is TBD.
 
-*Multi-Agent DRL* (MADRL)
-TBD
+*Multi-Agent DRL* (MADRL) is TBD.
 
 - Other Github Survey Sites:
   * [Paper Collection of Multi-Agent Reinforcement Learning (MARL)](https://github.com/LantaoYu/MARL-Papers)
   * [Awesome Multiagent Learning](https://github.com/chuangyc/awesome-multiagent-learning)
 
 #### Adversarial RL
-Non-cooperative
+Non-cooperative, or Adversarial, RL is TBD.
 
 - R. Elderman, et al (2017), [Adversarial Reinforcement Learning in a Cyber Security Situation](https://www.semanticscholar.org/paper/Adversarial-Reinforcement-Learning-in-a-Cyber-Elderman-Pater/dd6925f543ce9cb05c8e317c44ece5bf42189999)
 - Y. Liu, et al (2019), [Self-Improving Generative Adversarial Reinforcement Learning](https://research.tees.ac.uk/en/publications/self-improving-generative-adversarial-reinforcement-learning)
