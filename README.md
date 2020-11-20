@@ -37,7 +37,7 @@ emulate real-life attack-defend scenarios.
 ### Policy Convergence in Multi-Agent Scenarios
 TBD
 
-![Multi-agent DRL diagram!](/madrl.png "Multi-agent DRL diagram")
+<img src="./madrl.png" alt="canoe" width="200">
 
 *Solution: TBD*
 
