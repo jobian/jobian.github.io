@@ -11,6 +11,7 @@ emulate real-life attack-defend scenarios.
   * [Policy Convergence in Multi-Agent Scenarios](#policy-convergence-in-multi-agent-scenarios)
   * [Example MADRL Solutions](#example-madrl-solutions)
   * [Representations for Agent-Specific Observations](#representations-for-agent-specific-observations)
+* [Research Updates](#research-updates)
 * [Experiment Details](#experiment-details)
   * [MADDPG](#maddpg)
   * [Multi-Agent Particle Environment (MPE)](#multi-agent-particle-environment-mpe)
@@ -36,6 +37,8 @@ emulate real-life attack-defend scenarios.
 ### Policy Convergence in Multi-Agent Scenarios
 TBD
 
+![Multi-agent DRL diagram!](/madrl.png "Multi-agent DRL diagram")
+
 *Solution: TBD*
 
 ### Example MADRL Solutions
@@ -49,12 +52,28 @@ TBD
 *Solution: TBD*
 
 ---
+## Research Updates
+// 11-19-2020 - Meeting with Prof. Cho
+* Progress has been impeded for several months as I have struggled to find a policy-based MADRL solution to the two-player, non-cooperative security game as proposed in my draft paper
+* Other studies have documented similar issues with the concurrent training of multiple agents on a common environment
+  * Example: [Xia2019] trains two agents using different algorithms (DDPG, DQN) and rewards decisions without applying selected actions to the environment
+* The scale and complexity induced by the high number of network nodes, attack types, and defense techniques – in addition to a dynamic network topology – result in stochastic agent policies and an expansive set of potential actions and states
+  * MADRL algorithm effectiveness is hampered by *observation→action→reward* inconsistency
+
+* Next Steps:
+  * Explore use of DDPG algorithm for single agent (defender) and implement a utility function to drive the attacker's decisions (rebrand the attacker as 'primitive' or unsophisticated)
+  * If discernible progress is not achieved in next few weeks, replace DRL approach with a game theoretic model -- a GT approach will impact the 'imperfect information' and 'uncertainty' aspects of the DRL approach.
+  * Resume biweekly meetings and post meeting notes
+---
 ## Experiment Details
 
-### MADDPG
-Online MADDPG resources: [Paper](https://arxiv.org/pdf/1706.02275.pdf), [Github codebase](https://github.com/openai/maddpg)
+### Algorithm: Multi-Agent Deep Deterministic Policy Gradient (MADDPG)
+* Online MADDPG resources: [Paper](https://arxiv.org/pdf/1706.02275.pdf), [Github codebase](https://github.com/openai/maddpg)
+* Referenced extensively – working examples found for “cooperative” models only
+* Network, node, and agent models implemented using MPE, an OpenAI “gym”
+* Options to set the learning rate (0.01), discount factor (0.95), and batch size (1024)
 
-### Multi-Agent Particle Environment MPE
+### Environment: Multi-Agent Particle Environment (MPE) OpenAI Gym
 Online MPE resources: [Github codebase](https://github.com/openai/multiagent-particle-envs)
 
 ---
