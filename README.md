@@ -35,13 +35,13 @@ emulate real-life attack-defend scenarios.
 ## Research Challenges
 
 ### Policy Convergence in Multi-Agent Scenarios
-TBD
+This aspect of my experimentation work has bedeviled me for MONTHS on end. In a nutshell, each agent's policy fails to converge (or "learn) due to changes in the environment that are not directly attributable to the agent's actions. As a result, there is no consistent link between action and reward -- resulting in a perpetually stochastic policy.
 
 <img src="./madrl.png" alt="canoe" width="200">
 
 *Solution: TBD*
 
-### Example MADRL Solutions
+### Example DRL Solutions
 TBD
 
 *Solution: TBD*
@@ -63,7 +63,7 @@ TBD
 * Next Steps:
   * Explore use of DDPG algorithm for single agent (defender) and implement a utility function to drive the attacker's decisions (rebrand the attacker as 'primitive' or unsophisticated)
   * If discernible progress is not achieved in next few weeks, replace DRL approach with a game theoretic model -- a GT approach will impact the 'imperfect information' and 'uncertainty' aspects of the DRL approach.
-  * Resume biweekly meetings and post meeting notes
+  * Resume biweekly meetings and post meeting notes -- next meeting is scheduled for 12/3
 ---
 ## Experiment Details
 
@@ -131,12 +131,6 @@ TBD
 
 ---
 ## Past Study Topics
-TBD
-
-### Game Theoretic Modeling
-Before adopting a RL-based approach, my earlier iterations of this study topic involved the use of non-cooperative game theoretic models. I examined 
-several studies that employed Strong Stackelberg Equilibrium (SSE) to analyze attacker-defender network defense scenarios.
-
-### Mobile Crowdsensing
-
-### Location Privacy
+- Game Theoretic Modeling: Before adopting a RL-based approach, my earlier iterations of this study topic involved the use of non-cooperative game theoretic models. I examined several studies that employed Strong Stackelberg Equilibrium (SSE) to analyze attacker-defender network defense scenarios.
+- Mobile Crowdsensing
+- Location Privacy
