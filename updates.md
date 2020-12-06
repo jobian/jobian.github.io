@@ -1,5 +1,7 @@
 # Research Updates
-### Running log of advisor meeting notes, planned activities, experiment successes and failures!
+###### Running log of advisor meeting notes, planned activities, experiment successes and failures!
+
+### < [Back to main page](README.md)
 
 // 12-5-2020 - PROGRESS UPDATE
 * Modified Attacker (non-DRL) Agent standalone demo is working (with minor tweaks to the network graph updates)
