@@ -7,7 +7,7 @@ emulate real-life attack-defend scenarios.
 
 ## Research Journal Sections
 * [Research Overview ("The Big Idea")](#the-big-idea)
-* [Research Update Log](updates.md)
+* [Research Update Log](updates.md) - check here for the latest on my publications and experiments!
 * [Research Challenges](#research-challenges)
   * [Policy Convergence in Multi-Agent Scenarios](#policy-convergence-in-multi-agent-scenarios)
   * [Example MADRL Solutions](#example-madrl-solutions)
