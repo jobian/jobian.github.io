@@ -3,12 +3,13 @@
 
 ##### < [Back to main page](README.md)
 
-// 12-5-2020 - PROGRESS UPDATE
+**// 12-5-2020 - PROGRESS UPDATE**
 * Modified Attacker (non-DRL) Agent standalone demo is working (with minor tweaks to the network graph updates)
   * Now on to the Defender DRL agent updates!
   * RESEARCH need to meld dynamic network code into an OpenAI Gym
 
-// 12-3-2020 - NOTES from meeting with Prof. Cho
+***
+**// 12-3-2020 - NOTES from meeting with Prof. Cho**
 * A WORKING (!) DDPG implementation is now running in place of the MADDPG algorithm
   * Currently modifying a TensorFlow2 DDPG algorithm developed by Phil Tabor
 
@@ -40,7 +41,8 @@
     * reward, r(t)
       * r(t) = \delta * (S(t+1) - S(t)) * C(t) where S(t) = SS(t) + PS(t), C(t) is e^{-\lambda b}, and \delta is a constant
 
-// 11-19-2020 - NOTES from meeting with Prof. Cho
+***
+**// 11-19-2020 - NOTES from meeting with Prof. Cho**
 * I reported that progress has been impeded for several months as I have struggled to find a policy-based MADRL solution to the two-player, non-cooperative security game as proposed in my draft paper
 * Other studies have documented similar issues with the concurrent training of multiple agents on a common environment
   * Example: [Xia2019] trains two agents using different algorithms (DDPG, DQN) and rewards decisions without applying selected actions to the environment
