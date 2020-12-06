@@ -7,11 +7,11 @@ emulate real-life attack-defend scenarios.
 
 ## Research Journal Sections
 * [Research Overview ("The Big Idea")](#the-big-idea)
+* [Research Update Log](updates.md)
 * [Research Challenges](#research-challenges)
   * [Policy Convergence in Multi-Agent Scenarios](#policy-convergence-in-multi-agent-scenarios)
   * [Example MADRL Solutions](#example-madrl-solutions)
   * [Representations for Agent-Specific Observations](#representations-for-agent-specific-observations)
-* [Research Updates](#research-updates)
 * [Experiment Details](#experiment-details)
   * [MADDPG](#maddpg)
   * [Multi-Agent Particle Environment (MPE)](#multi-agent-particle-environment-mpe)
