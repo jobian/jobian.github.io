@@ -14,7 +14,7 @@ emulate real-life attack-defend scenarios.
   * [Representations for Agent-Specific Observations](#representations-for-agent-specific-observations)
 * [Experiment Details](#experiment-details)
   * [MADDPG/DDPG](#maddpg-ddpg)
-  * [Multi-Agent Particle Environment (MPE)](#multi-agent-particle-environment-mpe)
+  * [Multi-Agent Particle Environment (MPE)](#multi-agent-particle-environment)
 * [Key Research Literature](#key-research-literature)
   * [Cyber Deception](#cyber-deception)
   * [Reinforcement Learning](#reinforcement-learning)
@@ -74,8 +74,9 @@ TBD
 * Network, node, and agent models implemented using MPE, an OpenAI “gym”
 * Options to set the learning rate (0.01), discount factor (0.95), and batch size (1024)
 
-### Environment: Multi-Agent Particle Environment (MPE) OpenAI Gym
-Online MPE resources: [Github codebase](https://github.com/openai/multiagent-particle-envs)
+### Multi-Agent Particle Environment
+* MPE is an OpenAI Gym implementation (a reusable environment to test ML/RL algorithms)
+* Online MPE resources: [Github codebase](https://github.com/openai/multiagent-particle-envs)
 
 ---
 ## Key Research Literature
