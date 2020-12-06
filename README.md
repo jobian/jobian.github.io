@@ -1,5 +1,5 @@
 # Research Journal
-###### **Demetrius Davis**, Virginia Tech (VT), Computer Science *[last update: November 2020]*
+###### **Demetrius Davis**, Virginia Tech (VT), Computer Science *[last update: December 2020]*
 
 My current dissertation research is strongly focused on the application of one or more cyber deception techniques to augment
 insufficient network defense resources. A number of features are added to the agent, network and node models to closely
@@ -13,7 +13,7 @@ emulate real-life attack-defend scenarios.
   * [Example MADRL Solutions](#example-madrl-solutions)
   * [Representations for Agent-Specific Observations](#representations-for-agent-specific-observations)
 * [Experiment Details](#experiment-details)
-  * [MADDPG](#maddpg)
+  * [MADDPG/DDPG](#maddpg-ddpg)
   * [Multi-Agent Particle Environment (MPE)](#multi-agent-particle-environment-mpe)
 * [Key Research Literature](#key-research-literature)
   * [Cyber Deception](#cyber-deception)
@@ -67,7 +67,8 @@ TBD
 ---
 ## Experiment Details
 
-### Algorithm: Multi-Agent Deep Deterministic Policy Gradient (MADDPG)
+### MADDPG-DDPG
+* Algorithm: (Multi-Agent) Deep Deterministic Policy Gradient (MADDPG/DDPG)
 * Online MADDPG resources: [Paper](https://arxiv.org/pdf/1706.02275.pdf), [Github codebase](https://github.com/openai/maddpg)
 * Referenced extensively – working examples found for “cooperative” models only
 * Network, node, and agent models implemented using MPE, an OpenAI “gym”
